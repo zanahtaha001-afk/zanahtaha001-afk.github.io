@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanah Taha | E-Portfolio</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #0d9488;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --text: #4b5563;
+            --accent: #3b82f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 5rem;
+            scroll-margin-top: 5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: var(--primary);
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--secondary);
+        }
+
+        .trait-badge {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        blockquote {
+            background: #f3f4f6;
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--dark);
+        }
+
+        .sub-section {
+            margin-bottom: 2.5rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Zanah Taha</h1>
+        <p>Bridging Life Sciences & Human Behavior to Optimize Healthcare Operations</p>
+    </header>
+
+    <nav>
+        <a href="#about">Philosophy</a>
+        <a href="#individual">Personality & Individual</a>
+        <a href="#teams">Personality & Teams</a>
+        <a href="#stress">Stress & Coping</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>Professional Philosophy & Self-Actualization</h2>
+            <p>Driven by a deep passion for life sciences and the mechanics of human behavior, my vision of professional excellence centers on translating psychological insights into high-impact healthcare operations[cite: 1, 2]. True fulfillment in my work stems from designing better clinical systems, eliminating operational disparities, and directly improving patient outcomes[cite: 1, 2].</p>
+            <blockquote>
+                "Self-actualization, for me, is the direct, daily impact I have on other people's ability to achieve their goals and help themselves as a whole."[cite: 1, 2]
+            </blockquote>
+        </section>
+
+        <!-- Personality & The Individual -->
+        <section id="individual">
+            <h2>Personality and the Individual</h2>
+            
+            <div class="sub-section">
+                <h3>Big Five Insights into Work Performance & Interests</h3>
+                <p>Looking at my IPIP Big Five assessment, my highest score is <strong>Emotional Stability in the 81st percentile</strong>[cite: 2, 3]. This tells me that I have a strong capacity to remain level-headed, temperate, and calm when under intense pressure or facing a high workload[cite: 2, 3]. I don't panic easily; instead, I default to an objective, logical baseline when things get chaotic[cite: 2].</p>
+                <p>On the other hand, my lowest score was in <strong>Conscientiousness at the 26th percentile</strong>[cite: 2, 3]. This shows that I naturally tend to procrastinate and don't particularly enjoy rigid, repetitive administrative routines[cite: 2, 3]. Rather than seeing this as a flaw, I recognize that it aligns my professional interests with <strong>fast-paced, dynamic, and fluid environments</strong> (like clinical operations)[cite: 2]. Because of my adaptable nature, I thrive when solving unpredictable, open-ended problems where I can flex my creativity rather than being forced into strict, bureaucratic compliance boxes[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Ideal Work Setting & Justification</h3>
+                <p>The work setting that would fit me best is a <strong>hybrid, open clinical workspace or a pod-style team office</strong>[cite: 2].</p>
+                <p><strong>Justification:</strong> My <strong>Extraversion score sits at a moderate 41st percentile</strong>, meaning I am observant and social without being domineering[cite: 2]. I do best in an environment that naturally encourages social interaction, but I still require quiet, private spaces where I can isolate myself for deep-focus work without constant interruption[cite: 2]. Additionally, because my lower conscientiousness score means I benefit from environmental scaffolding rather than strict self-imposed rigidity, working within an organized, structured facility helps keep me accountable and my projects on track while still preserving the day-to-day freedom I need to do my best work[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Traits of an Ideal Manager & Justification</h3>
+                <p>I would seek a manager who possesses <strong>high Conscientiousness paired with a leadership style that respects autonomy</strong>[cite: 2].</p>
+                <p><strong>Justification:</strong> Because my conscientiousness is in the 26th percentile, having an organized manager who establishes clear deadlines and expectations provides the external scaffolding I need to keep projects moving forward smoothly[cite: 2]. However, because my emotional stability is high (81st percentile), I absolutely need a manager who avoids micromanagement[cite: 2, 3]. I appreciate a leader who respects my independence, gives me the space to think, and trusts me to solve complex operational problems in my own creative way[cite: 2].</p>
+            </div>
+        </section>
+
+        <!-- Personality & Teams -->
+        <section id="teams">
+            <h2>Personality and Teams</h2>
+
+            <div class="sub-section">
+                <h3>Behavioral Shifts Based on Work Context</h3>
+                <p>According to <strong>Whole Trait Theory</strong>, while my baseline personality traits are stable, my behaviors shift into different "states" depending on what my job requires of me at any given moment[cite: 2].</p>
+                <p>In collaborative group projects, I actively lean into my <strong>Agreeableness (56th percentile)</strong>, acting as a highly cooperative, pleasant, and diplomatic teammate who listens carefully to everyone's input[cite: 2, 10]. In independent work, I shift into a state of deep focus and high autonomy[cite: 2]. Thanks to my high emotional stability, I am completely comfortable working on my own for long periods without needing constant external feedback or validation[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Team Strengths: Context-Dependent Value</h3>
+                <p>I've learned that personality traits aren't inherently good or bad; their value depends entirely on the situation[cite: 2].</p>
+                <p><strong>My High Emotional Stability (81st Percentile):</strong> During an operational emergency or a high-stakes project with a tight deadline, my ability to stay calm and logical allows me to defuse tension and stabilize teammates who are feeling anxious[cite: 2]. Conversely, in a team setting that demands intense, fast-paced kinetic energy, an urgent group might misinterpret my unshakeable calmness as a lack of enthusiasm or a missing sense of situational urgency[cite: 2].</p>
+                <p><strong>My Flexible Conscientiousness (26th Percentile):</strong> When a plan has to change on the fly due to new information, my adaptable, spontaneous style allows me to pivot instantly without experiencing cognitive friction[cite: 2]. However, if a team is working in a highly regulated environment where success depends on following a rigid, step-by-step sequential process, my tendency to bypass strict structure can disrupt the team's cohesion[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>The Person-Situation Debate in the Workplace</h3>
+                <p>The person-situation debate centers on whether our behavior is driven more by our stable internal traits or by the immediate situational influences around us, modeled by the interaction formula:</p>
+                <p style="text-align: center; font-weight: bold; margin: 1.5rem 0;">$$B = f(P, S)$$</p>
+                <p><strong>Workplace Example:</strong> I can look at myself as a prime example. If an unstructured employee like me—who naturally scores low in conscientiousness and prefers open-ended environments—is placed into a "strong situation," such as a rigid regulatory enforcement environment, the context completely overrides my baseline traits[cite: 2]. Because the environment demands strict adherence to compliance checklists and protocols, I am driven to follow the rules perfectly, demonstrating how a powerful situation can shape behavior regardless of natural dispositions[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Handling Coworker Conflict</h3>
+                <p>When I face workplace conflict or personal criticism, I try to remain as objective and rational as possible, addressing the problem rather than treating it as a personal attack[cite: 2].</p>
+                <p>I actively use my <strong>high emotional stability</strong> to keep my emotions in check, defuse tension, and keep the conversation focused on logic[cite: 2]. This is balanced by my <strong>mid-range agreeableness (56th percentile)</strong>, which helps me maintain positive relationships by being a polite, empathetic listener while remaining assertive enough to protect my boundaries and advocate for logical solutions[cite: 2].</p>
+            </div>
+        </section>
+
+        <!-- Personality, Stress, and Coping -->
+        <section id="stress">
+            <h2>Personality, Stress, and Coping</h2>
+
+            <div class="sub-section">
+                <h3>Differentiating Traits vs. States Under Stress</h3>
+                <p>When evaluating team dynamics, I make it a priority to distinguish between a colleague's enduring personality <em>traits</em> and their temporary, stress-induced <em>states</em>[cite: 2].</p>
+                <p>I look for sudden, sharp deviations from their normal baseline behavior[cite: 2]. For instance, if a coworker who is normally cooperative, gentle, and highly agreeable suddenly becomes uncharacteristically snappy, brusque, and defensive during a stressful project rollout, I don't assume their personality has changed[cite: 2]. I recognize this as a temporary, stressed personality <strong>"state"</strong> triggered by environmental pressure and cognitive overload[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Approach to Reducing a Peer’s Stress</h3>
+                <p>To help mitigate a colleague's stress and prevent burnout, I focus on altering their immediate work environment through structured support[cite: 2].</p>
+                <p><strong>Approach &amp; Justification:</strong> I step in to offer concrete <strong>role clarity and task division</strong> to share the operational burden[cite: 2]. Providing this kind of structured situational support reduces situational uncertainty and gives the individual a sense of control over their immediate tasks[cite: 2]. By lightening their cognitive load, I can help buffer them against work stressors and effectively guide them back to their optimal emotional baseline[cite: 2].</p>
+            </div>
+
+            <div class="sub-section">
+                <h3>Assessing and Mitigating My Own Workplace Stress</h3>
+                <p>Because I have a naturally high baseline of trait emotional stability, I can't rely on typical panic responses to realize I am overwhelmed[cite: 2].</p>
+                <p><strong>Determination &amp; Steps:</strong> I know my internal stress is becoming too high when I start deviating from my baseline self—specifically, when I notice persistent irritability, unexpected bouts of anxiety, restlessness, or sudden difficulties concentrating[cite: 2]. These are my personal warning signs that my cognitive load is maxed out[cite: 2].</p>
+                <p>To bring my stress levels back down, I apply <strong>problem-focused transactional coping strategies</strong>[cite: 2, 4]. I deliberately build firmer boundaries around my workload, carefully plan out and structure my time, and meticulously organize my tasks into prioritized to-do lists[cite: 2]. Because my low conscientiousness can lead to avoidant procrastination when things pile up, implementing these external structures reduces the burden on my working memory, changes my cognitive appraisal of the stressors from threats to manageable challenges, and protects my long-term professional well-being[cite: 2, 4].</p>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Zanah Taha. Academic E-Portfolio | Southern New Hampshire University</p>
+    </div>
+
+</body>
+</html>
